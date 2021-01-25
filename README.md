@@ -37,6 +37,10 @@ Running and reviewing unit tests is a great way to get familiarized with a libra
 $ npm install && npm run test
 ```
 
+### Credit
+
+* [Clyde D'Souza](https://codeburst.io/developing-and-publishing-a-typescript-npm-package-d9fc643d4229)
+
 ### Author
 
 **Terver Aosu**
