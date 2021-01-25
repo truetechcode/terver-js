@@ -1,7 +1,7 @@
 {
   "name": "terverjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "My first npm package - simple addition package",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -9,9 +9,26 @@
     "coverage": "nyc npm test",
     "lint": "eslint \"**\\*.ts\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truetechcode/terver-js"
+  },
+  "keywords": [
+    "demo npm",
+    "add",
+    "calculate"
+  ],
+  "author": "Terver Aosu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truetechcode/terver-js/issues"
+  },
+  "homepage": "https://github.com/truetechcode/terver-js#readme",
   "devDependencies": {
     "@types/chai": "^4.2.14",
     "@types/mocha": "^8.2.0",
